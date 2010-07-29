@@ -152,7 +152,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>FlipsideViewController</string>
+					<string>TangentViewController</string>
 					<string>UIResponder</string>
 					<string>{{213, 676}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -180,7 +180,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">FlipsideViewController</string>
+					<string key="className">TangentViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<string key="NS.key.0">done:</string>
@@ -188,7 +188,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./classes-xjh84/FlipsideViewController.h</string>
+						<string key="minorKey">./classes-xjh84/TangentViewController.h</string>
 					</object>
 				</object>
 			</object>

@@ -19,7 +19,7 @@
 */
 
 
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
+- (void)tangentViewControllerDidFinish:(TangentViewController *)controller {
     
 	[self dismissModalViewControllerAnimated:YES];
 }
@@ -27,7 +27,7 @@
 
 - (IBAction)showInfo:(id)sender {    
 	
-	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
+	TangentViewController *controller = [[TangentViewController alloc] initWithNibName:@"TangentView" bundle:nil];
 	controller.delegate = self;
 	
 	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;

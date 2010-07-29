@@ -7,9 +7,9 @@
 //
 
 
-#import "FlipsideViewController.h"
+#import "TangentViewController.h"
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
+@interface MainViewController : UIViewController <TangentViewControllerDelegate> {
 
 }
 

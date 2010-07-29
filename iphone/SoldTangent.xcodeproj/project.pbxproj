@@ -17,9 +17,9 @@
 		DAC58E68120104AB00433B39 /* SoldTangentAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E67120104AB00433B39 /* SoldTangentAppDelegate.m */; };
 		DAC58E6B120104AB00433B39 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E69120104AB00433B39 /* MainWindow.xib */; };
 		DAC58E6E120104AB00433B39 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E6D120104AB00433B39 /* MainViewController.m */; };
-		DAC58E70120104AB00433B39 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E6F120104AB00433B39 /* MainView.xib */; };
-		DAC58E73120104AB00433B39 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E72120104AB00433B39 /* FlipsideViewController.m */; };
-		DAC58E75120104AB00433B39 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E74120104AB00433B39 /* FlipsideView.xib */; };
+		DAC58E70120104AB00433B39 /* SoldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E6F120104AB00433B39 /* SoldView.xib */; };
+		DAC58E73120104AB00433B39 /* TangentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E72120104AB00433B39 /* TangentViewController.m */; };
+		DAC58E75120104AB00433B39 /* TangentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E74120104AB00433B39 /* TangentView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +38,10 @@
 		DAC58E6A120104AB00433B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		DAC58E6C120104AB00433B39 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		DAC58E6D120104AB00433B39 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		DAC58E6F120104AB00433B39 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		DAC58E71120104AB00433B39 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		DAC58E72120104AB00433B39 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
-		DAC58E74120104AB00433B39 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		DAC58E6F120104AB00433B39 /* SoldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoldView.xib; sourceTree = "<group>"; };
+		DAC58E71120104AB00433B39 /* TangentViewController.h */ = {isa = PBXFileReference; path = TangentViewController.h; sourceTree = "<group>"; };
+		DAC58E72120104AB00433B39 /* TangentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TangentViewController.m; sourceTree = "<group>"; };
+		DAC58E74120104AB00433B39 /* TangentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TangentView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 				DAC58E67120104AB00433B39 /* SoldTangentAppDelegate.m */,
 				DAC58E6C120104AB00433B39 /* MainViewController.h */,
 				DAC58E6D120104AB00433B39 /* MainViewController.m */,
-				DAC58E71120104AB00433B39 /* FlipsideViewController.h */,
-				DAC58E72120104AB00433B39 /* FlipsideViewController.m */,
+				DAC58E71120104AB00433B39 /* TangentViewController.h */,
+				DAC58E72120104AB00433B39 /* TangentViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -99,8 +99,8 @@
 				DAC58E5F120104AB00433B39 /* SoldTangent-Info.plist */,
 				DAC58E61120104AB00433B39 /* InfoPlist.strings */,
 				DAC58E69120104AB00433B39 /* MainWindow.xib */,
-				DAC58E6F120104AB00433B39 /* MainView.xib */,
-				DAC58E74120104AB00433B39 /* FlipsideView.xib */,
+				DAC58E6F120104AB00433B39 /* SoldView.xib */,
+				DAC58E74120104AB00433B39 /* TangentView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -172,8 +172,8 @@
 			files = (
 				DAC58E63120104AB00433B39 /* InfoPlist.strings in Resources */,
 				DAC58E6B120104AB00433B39 /* MainWindow.xib in Resources */,
-				DAC58E70120104AB00433B39 /* MainView.xib in Resources */,
-				DAC58E75120104AB00433B39 /* FlipsideView.xib in Resources */,
+				DAC58E70120104AB00433B39 /* SoldView.xib in Resources */,
+				DAC58E75120104AB00433B39 /* TangentView.xib in Resources */,
 				DAC53A0612019F3900750FF1 /* tangent.png in Resources */,
 				DAC53A0712019F3900750FF1 /* sold.png in Resources */,
 			);
@@ -189,7 +189,7 @@
 				DAC58E65120104AB00433B39 /* main.m in Sources */,
 				DAC58E68120104AB00433B39 /* SoldTangentAppDelegate.m in Sources */,
 				DAC58E6E120104AB00433B39 /* MainViewController.m in Sources */,
-				DAC58E73120104AB00433B39 /* FlipsideViewController.m in Sources */,
+				DAC58E73120104AB00433B39 /* TangentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,15 +1,15 @@
 //
-//  FlipsideViewController.m
+//  TangentViewController.m
 //  SoldTangent
 //
 //  Created by Paul Hammant on 7/28/10.
 //  Copyright (c) 2010 ThoughtWorks. All rights reserved.
 //
 
-#import "FlipsideViewController.h"
+#import "TangentViewController.h"
 
 
-@implementation FlipsideViewController
+@implementation TangentViewController
 
 @synthesize delegate;
 
@@ -21,7 +21,7 @@
 
 
 - (IBAction)done:(id)sender {
-	[self.delegate flipsideViewControllerDidFinish:self];	
+	[self.delegate tangentViewControllerDidFinish:self];	
 }
 
 
