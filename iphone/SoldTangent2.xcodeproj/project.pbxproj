@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA25FA7712010A3E00E3557C /* sold.png in Resources */ = {isa = PBXBuildFile; fileRef = DA25FA7612010A3E00E3557C /* sold.png */; };
+		DA25FA7912010A4300E3557C /* tangent.png in Resources */ = {isa = PBXBuildFile; fileRef = DA25FA7812010A4300E3557C /* tangent.png */; };
+		DAC58E5A120104AB00433B39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC58E59120104AB00433B39 /* UIKit.framework */; };
+		DAC58E5C120104AB00433B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC58E5B120104AB00433B39 /* Foundation.framework */; };
+		DAC58E5E120104AB00433B39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC58E5D120104AB00433B39 /* CoreGraphics.framework */; };
+		DAC58E63120104AB00433B39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E61120104AB00433B39 /* InfoPlist.strings */; };
+		DAC58E65120104AB00433B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E64120104AB00433B39 /* main.m */; };
+		DAC58E68120104AB00433B39 /* SoldTangent2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E67120104AB00433B39 /* SoldTangent2AppDelegate.m */; };
+		DAC58E6B120104AB00433B39 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E69120104AB00433B39 /* MainWindow.xib */; };
+		DAC58E6E120104AB00433B39 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E6D120104AB00433B39 /* MainViewController.m */; };
+		DAC58E70120104AB00433B39 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E6F120104AB00433B39 /* MainView.xib */; };
+		DAC58E73120104AB00433B39 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E72120104AB00433B39 /* FlipsideViewController.m */; };
+		DAC58E75120104AB00433B39 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E74120104AB00433B39 /* FlipsideView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA25FA7612010A3E00E3557C /* sold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoldTangent2.xcodeproj/../../../../Users/paul/Desktop/sold.png; sourceTree = "<group>"; };
+		DA25FA7812010A4300E3557C /* tangent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = /Users/paul/Desktop/tangent.png; sourceTree = "<absolute>"; };
+		DAC58E56120104AB00433B39 /* SoldTangent2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoldTangent2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC58E59120104AB00433B39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAC58E5B120104AB00433B39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAC58E5D120104AB00433B39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAC58E5F120104AB00433B39 /* SoldTangent2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoldTangent2-Info.plist"; sourceTree = "<group>"; };
+		DAC58E60120104AB00433B39 /* SoldTangent2_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldTangent2_Prefix.pch; sourceTree = "<group>"; };
+		DAC58E62120104AB00433B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAC58E64120104AB00433B39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAC58E66120104AB00433B39 /* SoldTangent2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldTangent2AppDelegate.h; sourceTree = "<group>"; };
+		DAC58E67120104AB00433B39 /* SoldTangent2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldTangent2AppDelegate.m; sourceTree = "<group>"; };
+		DAC58E6A120104AB00433B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DAC58E6C120104AB00433B39 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DAC58E6D120104AB00433B39 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DAC58E6F120104AB00433B39 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		DAC58E71120104AB00433B39 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		DAC58E72120104AB00433B39 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		DAC58E74120104AB00433B39 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC58E53120104AB00433B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC58E5A120104AB00433B39 /* UIKit.framework in Frameworks */,
+				DAC58E5C120104AB00433B39 /* Foundation.framework in Frameworks */,
+				DAC58E5E120104AB00433B39 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC58E47120104AB00433B39 = {
+			isa = PBXGroup;
+			children = (
+				DAC58E4E120104AB00433B39 /* Classes */,
+				DAC58E4F120104AB00433B39 /* Other Sources */,
+				DAC58E50120104AB00433B39 /* Resources */,
+				DAC58E51120104AB00433B39 /* Frameworks */,
+				DAC58E57120104AB00433B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC58E4E120104AB00433B39 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DAC58E66120104AB00433B39 /* SoldTangent2AppDelegate.h */,
+				DAC58E67120104AB00433B39 /* SoldTangent2AppDelegate.m */,
+				DAC58E6C120104AB00433B39 /* MainViewController.h */,
+				DAC58E6D120104AB00433B39 /* MainViewController.m */,
+				DAC58E71120104AB00433B39 /* FlipsideViewController.h */,
+				DAC58E72120104AB00433B39 /* FlipsideViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DAC58E4F120104AB00433B39 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DAC58E60120104AB00433B39 /* SoldTangent2_Prefix.pch */,
+				DAC58E64120104AB00433B39 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		DAC58E50120104AB00433B39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA25FA7812010A4300E3557C /* tangent.png */,
+				DA25FA7612010A3E00E3557C /* sold.png */,
+				DAC58E5F120104AB00433B39 /* SoldTangent2-Info.plist */,
+				DAC58E61120104AB00433B39 /* InfoPlist.strings */,
+				DAC58E69120104AB00433B39 /* MainWindow.xib */,
+				DAC58E6F120104AB00433B39 /* MainView.xib */,
+				DAC58E74120104AB00433B39 /* FlipsideView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DAC58E51120104AB00433B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAC58E59120104AB00433B39 /* UIKit.framework */,
+				DAC58E5B120104AB00433B39 /* Foundation.framework */,
+				DAC58E5D120104AB00433B39 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC58E57120104AB00433B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC58E56120104AB00433B39 /* SoldTangent2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC58E55120104AB00433B39 /* SoldTangent2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC58E78120104AB00433B39 /* Build configuration list for PBXNativeTarget "SoldTangent2" */;
+			buildPhases = (
+				DAC58E52120104AB00433B39 /* Sources */,
+				DAC58E53120104AB00433B39 /* Frameworks */,
+				DAC58E54120104AB00433B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoldTangent2;
+			productName = SoldTangent2;
+			productReference = DAC58E56120104AB00433B39 /* SoldTangent2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC58E49120104AB00433B39 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DAC58E4C120104AB00433B39 /* Build configuration list for PBXProject "SoldTangent2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAC58E47120104AB00433B39;
+			productRefGroup = DAC58E57120104AB00433B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC58E55120104AB00433B39 /* SoldTangent2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC58E54120104AB00433B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC58E63120104AB00433B39 /* InfoPlist.strings in Resources */,
+				DAC58E6B120104AB00433B39 /* MainWindow.xib in Resources */,
+				DAC58E70120104AB00433B39 /* MainView.xib in Resources */,
+				DAC58E75120104AB00433B39 /* FlipsideView.xib in Resources */,
+				DA25FA7712010A3E00E3557C /* sold.png in Resources */,
+				DA25FA7912010A4300E3557C /* tangent.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC58E52120104AB00433B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC58E65120104AB00433B39 /* main.m in Sources */,
+				DAC58E68120104AB00433B39 /* SoldTangent2AppDelegate.m in Sources */,
+				DAC58E6E120104AB00433B39 /* MainViewController.m in Sources */,
+				DAC58E73120104AB00433B39 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAC58E61120104AB00433B39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC58E62120104AB00433B39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAC58E69120104AB00433B39 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC58E6A120104AB00433B39 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC58E76120104AB00433B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		DAC58E77120104AB00433B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		DAC58E79120104AB00433B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SoldTangent2_Prefix.pch;
+				INFOPLIST_FILE = "SoldTangent2-Info.plist";
+				PRODUCT_NAME = SoldTangent2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAC58E7A120104AB00433B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SoldTangent2_Prefix.pch;
+				INFOPLIST_FILE = "SoldTangent2-Info.plist";
+				PRODUCT_NAME = SoldTangent2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC58E4C120104AB00433B39 /* Build configuration list for PBXProject "SoldTangent2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC58E76120104AB00433B39 /* Debug */,
+				DAC58E77120104AB00433B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC58E78120104AB00433B39 /* Build configuration list for PBXNativeTarget "SoldTangent2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC58E79120104AB00433B39 /* Debug */,
+				DAC58E7A120104AB00433B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC58E49120104AB00433B39 /* Project object */;
+}
