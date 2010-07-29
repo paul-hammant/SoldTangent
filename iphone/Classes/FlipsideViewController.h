@@ -1,9 +1,9 @@
 //
 //  FlipsideViewController.h
-//  SoldTangent2
+//  SoldTangent
 //
 //  Created by Paul Hammant on 7/28/10.
-//  Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2010 ThoughtWorks. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

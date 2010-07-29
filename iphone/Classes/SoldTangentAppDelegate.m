@@ -1,17 +1,17 @@
 //
-//  SoldTangent2AppDelegate.m
-//  SoldTangent2
+//  SoldTangentAppDelegate.m
+//  SoldTangent
 //
 //  Created by Paul Hammant on 7/28/10.
-//  Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2010 ThoughtWorks. All rights reserved.
 //
 
 
-#import "SoldTangent2AppDelegate.h"
+#import "SoldTangentAppDelegate.h"
 
 #import "MainViewController.h"
 
-@implementation SoldTangent2AppDelegate
+@implementation SoldTangentAppDelegate
 
 
 @synthesize window;

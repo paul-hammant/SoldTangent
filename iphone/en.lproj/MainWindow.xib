@@ -166,7 +166,7 @@
 					<string>MainViewController</string>
 					<string>{{0, 905}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>SoldTangent2AppDelegate</string>
+					<string>SoldTangentAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
@@ -219,7 +219,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">SoldTangent2AppDelegate</string>
+					<string key="className">SoldTangentAppDelegate</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -255,7 +255,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">Classes/SoldTangent2AppDelegate.h</string>
+						<string key="minorKey">Classes/SoldTangentAppDelegate.h</string>
 					</object>
 				</object>
 			</object>
@@ -453,7 +453,7 @@
 			<integer value="3100" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">SoldTangent2.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">SoldTangent.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<string key="IBCocoaTouchPluginVersion">112</string>
 	</data>

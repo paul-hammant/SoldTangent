@@ -14,7 +14,7 @@
 		DAC58E5E120104AB00433B39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC58E5D120104AB00433B39 /* CoreGraphics.framework */; };
 		DAC58E63120104AB00433B39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E61120104AB00433B39 /* InfoPlist.strings */; };
 		DAC58E65120104AB00433B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E64120104AB00433B39 /* main.m */; };
-		DAC58E68120104AB00433B39 /* SoldTangent2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E67120104AB00433B39 /* SoldTangent2AppDelegate.m */; };
+		DAC58E68120104AB00433B39 /* SoldTangentAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E67120104AB00433B39 /* SoldTangentAppDelegate.m */; };
 		DAC58E6B120104AB00433B39 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E69120104AB00433B39 /* MainWindow.xib */; };
 		DAC58E6E120104AB00433B39 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC58E6D120104AB00433B39 /* MainViewController.m */; };
 		DAC58E70120104AB00433B39 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC58E6F120104AB00433B39 /* MainView.xib */; };
@@ -25,16 +25,16 @@
 /* Begin PBXFileReference section */
 		DAC53A0412019F3900750FF1 /* tangent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tangent.png; sourceTree = "<group>"; };
 		DAC53A0512019F3900750FF1 /* sold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sold.png; sourceTree = "<group>"; };
-		DAC58E56120104AB00433B39 /* SoldTangent2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoldTangent2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC58E56120104AB00433B39 /* SoldTangent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoldTangent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC58E59120104AB00433B39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DAC58E5B120104AB00433B39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DAC58E5D120104AB00433B39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DAC58E5F120104AB00433B39 /* SoldTangent2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoldTangent2-Info.plist"; sourceTree = "<group>"; };
-		DAC58E60120104AB00433B39 /* SoldTangent2_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldTangent2_Prefix.pch; sourceTree = "<group>"; };
+		DAC58E5F120104AB00433B39 /* SoldTangent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoldTangent-Info.plist"; sourceTree = "<group>"; };
+		DAC58E60120104AB00433B39 /* SoldTangent_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldTangent_Prefix.pch; sourceTree = "<group>"; };
 		DAC58E62120104AB00433B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DAC58E64120104AB00433B39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DAC58E66120104AB00433B39 /* SoldTangent2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldTangent2AppDelegate.h; sourceTree = "<group>"; };
-		DAC58E67120104AB00433B39 /* SoldTangent2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldTangent2AppDelegate.m; sourceTree = "<group>"; };
+		DAC58E66120104AB00433B39 /* SoldTangentAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldTangentAppDelegate.h; sourceTree = "<group>"; };
+		DAC58E67120104AB00433B39 /* SoldTangentAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldTangentAppDelegate.m; sourceTree = "<group>"; };
 		DAC58E6A120104AB00433B39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		DAC58E6C120104AB00433B39 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		DAC58E6D120104AB00433B39 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -72,8 +72,8 @@
 		DAC58E4E120104AB00433B39 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DAC58E66120104AB00433B39 /* SoldTangent2AppDelegate.h */,
-				DAC58E67120104AB00433B39 /* SoldTangent2AppDelegate.m */,
+				DAC58E66120104AB00433B39 /* SoldTangentAppDelegate.h */,
+				DAC58E67120104AB00433B39 /* SoldTangentAppDelegate.m */,
 				DAC58E6C120104AB00433B39 /* MainViewController.h */,
 				DAC58E6D120104AB00433B39 /* MainViewController.m */,
 				DAC58E71120104AB00433B39 /* FlipsideViewController.h */,
@@ -85,7 +85,7 @@
 		DAC58E4F120104AB00433B39 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DAC58E60120104AB00433B39 /* SoldTangent2_Prefix.pch */,
+				DAC58E60120104AB00433B39 /* SoldTangent_Prefix.pch */,
 				DAC58E64120104AB00433B39 /* main.m */,
 			);
 			name = "Other Sources";
@@ -96,7 +96,7 @@
 			children = (
 				DAC53A0412019F3900750FF1 /* tangent.png */,
 				DAC53A0512019F3900750FF1 /* sold.png */,
-				DAC58E5F120104AB00433B39 /* SoldTangent2-Info.plist */,
+				DAC58E5F120104AB00433B39 /* SoldTangent-Info.plist */,
 				DAC58E61120104AB00433B39 /* InfoPlist.strings */,
 				DAC58E69120104AB00433B39 /* MainWindow.xib */,
 				DAC58E6F120104AB00433B39 /* MainView.xib */,
@@ -118,7 +118,7 @@
 		DAC58E57120104AB00433B39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAC58E56120104AB00433B39 /* SoldTangent2.app */,
+				DAC58E56120104AB00433B39 /* SoldTangent.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAC58E55120104AB00433B39 /* SoldTangent2 */ = {
+		DAC58E55120104AB00433B39 /* SoldTangent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAC58E78120104AB00433B39 /* Build configuration list for PBXNativeTarget "SoldTangent2" */;
+			buildConfigurationList = DAC58E78120104AB00433B39 /* Build configuration list for PBXNativeTarget "SoldTangent" */;
 			buildPhases = (
 				DAC58E52120104AB00433B39 /* Sources */,
 				DAC58E53120104AB00433B39 /* Frameworks */,
@@ -138,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = SoldTangent2;
-			productName = SoldTangent2;
-			productReference = DAC58E56120104AB00433B39 /* SoldTangent2.app */;
+			name = SoldTangent;
+			productName = SoldTangent;
+			productReference = DAC58E56120104AB00433B39 /* SoldTangent.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +148,7 @@
 /* Begin PBXProject section */
 		DAC58E49120104AB00433B39 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = DAC58E4C120104AB00433B39 /* Build configuration list for PBXProject "SoldTangent2" */;
+			buildConfigurationList = DAC58E4C120104AB00433B39 /* Build configuration list for PBXProject "SoldTangent" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAC58E55120104AB00433B39 /* SoldTangent2 */,
+				DAC58E55120104AB00433B39 /* SoldTangent */,
 			);
 		};
 /* End PBXProject section */
@@ -187,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC58E65120104AB00433B39 /* main.m in Sources */,
-				DAC58E68120104AB00433B39 /* SoldTangent2AppDelegate.m in Sources */,
+				DAC58E68120104AB00433B39 /* SoldTangentAppDelegate.m in Sources */,
 				DAC58E6E120104AB00433B39 /* MainViewController.m in Sources */,
 				DAC58E73120104AB00433B39 /* FlipsideViewController.m in Sources */,
 			);
@@ -251,9 +251,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SoldTangent2_Prefix.pch;
-				INFOPLIST_FILE = "SoldTangent2-Info.plist";
-				PRODUCT_NAME = SoldTangent2;
+				GCC_PREFIX_HEADER = SoldTangent_Prefix.pch;
+				INFOPLIST_FILE = "SoldTangent-Info.plist";
+				PRODUCT_NAME = SoldTangent;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,9 +264,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SoldTangent2_Prefix.pch;
-				INFOPLIST_FILE = "SoldTangent2-Info.plist";
-				PRODUCT_NAME = SoldTangent2;
+				GCC_PREFIX_HEADER = SoldTangent_Prefix.pch;
+				INFOPLIST_FILE = "SoldTangent-Info.plist";
+				PRODUCT_NAME = SoldTangent;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,7 +275,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAC58E4C120104AB00433B39 /* Build configuration list for PBXProject "SoldTangent2" */ = {
+		DAC58E4C120104AB00433B39 /* Build configuration list for PBXProject "SoldTangent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAC58E76120104AB00433B39 /* Debug */,
@@ -284,7 +284,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAC58E78120104AB00433B39 /* Build configuration list for PBXNativeTarget "SoldTangent2" */ = {
+		DAC58E78120104AB00433B39 /* Build configuration list for PBXNativeTarget "SoldTangent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAC58E79120104AB00433B39 /* Debug */,
