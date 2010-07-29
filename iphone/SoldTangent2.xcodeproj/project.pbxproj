@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA25FA7712010A3E00E3557C /* sold.png in Resources */ = {isa = PBXBuildFile; fileRef = DA25FA7612010A3E00E3557C /* sold.png */; };
-		DA25FA7912010A4300E3557C /* tangent.png in Resources */ = {isa = PBXBuildFile; fileRef = DA25FA7812010A4300E3557C /* tangent.png */; };
+		DAC53A0612019F3900750FF1 /* tangent.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC53A0412019F3900750FF1 /* tangent.png */; };
+		DAC53A0712019F3900750FF1 /* sold.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC53A0512019F3900750FF1 /* sold.png */; };
 		DAC58E5A120104AB00433B39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC58E59120104AB00433B39 /* UIKit.framework */; };
 		DAC58E5C120104AB00433B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC58E5B120104AB00433B39 /* Foundation.framework */; };
 		DAC58E5E120104AB00433B39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC58E5D120104AB00433B39 /* CoreGraphics.framework */; };
@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA25FA7612010A3E00E3557C /* sold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoldTangent2.xcodeproj/../../../../Users/paul/Desktop/sold.png; sourceTree = "<group>"; };
-		DA25FA7812010A4300E3557C /* tangent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = /Users/paul/Desktop/tangent.png; sourceTree = "<absolute>"; };
+		DAC53A0412019F3900750FF1 /* tangent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tangent.png; sourceTree = "<group>"; };
+		DAC53A0512019F3900750FF1 /* sold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sold.png; sourceTree = "<group>"; };
 		DAC58E56120104AB00433B39 /* SoldTangent2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoldTangent2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC58E59120104AB00433B39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DAC58E5B120104AB00433B39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,8 +94,8 @@
 		DAC58E50120104AB00433B39 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DA25FA7812010A4300E3557C /* tangent.png */,
-				DA25FA7612010A3E00E3557C /* sold.png */,
+				DAC53A0412019F3900750FF1 /* tangent.png */,
+				DAC53A0512019F3900750FF1 /* sold.png */,
 				DAC58E5F120104AB00433B39 /* SoldTangent2-Info.plist */,
 				DAC58E61120104AB00433B39 /* InfoPlist.strings */,
 				DAC58E69120104AB00433B39 /* MainWindow.xib */,
@@ -174,8 +174,8 @@
 				DAC58E6B120104AB00433B39 /* MainWindow.xib in Resources */,
 				DAC58E70120104AB00433B39 /* MainView.xib in Resources */,
 				DAC58E75120104AB00433B39 /* FlipsideView.xib in Resources */,
-				DA25FA7712010A3E00E3557C /* sold.png in Resources */,
-				DA25FA7912010A4300E3557C /* tangent.png in Resources */,
+				DAC53A0612019F3900750FF1 /* tangent.png in Resources */,
+				DAC53A0712019F3900750FF1 /* sold.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
