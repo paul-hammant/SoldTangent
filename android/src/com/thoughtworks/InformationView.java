@@ -17,7 +17,7 @@ public class InformationView extends Activity {
         homeScreenView.setOnClickListener(new OnClickListener() {
 
             public void onClick(View imageView) {
-                
+                finish();
             }
         });
     }
