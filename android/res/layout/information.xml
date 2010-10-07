@@ -12,12 +12,5 @@
 	android:scaleType="centerInside"
 	android:src="@drawable/tangent"
 	/>
-<ImageButton android:id="@+id/informationButton"
-            android:layout_width="40dip"
-            android:layout_height="40dip"
-            android:layout_marginBottom="5dip"
-            android:layout_marginRight="5dip"
-            android:layout_gravity="bottom|right"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_menu_info_details"/>
+
 </FrameLayout>
