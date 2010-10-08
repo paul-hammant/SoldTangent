@@ -19,5 +19,6 @@
             android:layout_marginRight="5dip"
             android:layout_gravity="bottom|right"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_menu_info_details"/>
+            android:src="@drawable/ic_menu_info_details"
+            android:background="@null"/>
 </FrameLayout>
